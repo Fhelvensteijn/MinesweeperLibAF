@@ -6,7 +6,7 @@
 
 #include <iostream>
 #include <cstdlib>
-#include "MinesweeperLibAF.cpp"
+#include "MinesweeperLibAF.h"
 
 using namespace std;
 
@@ -78,7 +78,7 @@ int main() {
 			cout << "kaboom";
 			return 0;
 		}
-		if (game.checkWin()) {
+		if (game.CheckWin()) {
 			cout << "you win!";
 			return 0;
 		}
